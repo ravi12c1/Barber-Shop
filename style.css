@@ -1,0 +1,657 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+}
+
+/* COMMON */
+.section {
+    padding: 80px 5%;
+}
+
+.label {
+    color: #dc3545;
+    font-size: 14px;
+    display: inline;
+    padding: 5px;
+    margin-bottom: 8px;
+    background-color: rgb(44, 44, 44);
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: rgb(170, 170, 170);
+    font-size: 10px;
+}
+
+.padd {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    padding: 20px 5%;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.nav a {
+    margin-left:15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 8px 18px;
+    background: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* profile */
+.profile {
+    height: 80vh;
+    background: url("/Web-Design/Projects/Blazing-Coders/Picture/Profile.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.profile h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10%;
+}
+
+.about-img img {
+    width: 350px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.about-sec2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.about-sec3 {
+    display: none;
+
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.service-box {
+    padding: 20px;
+    background: rgb(44, 44, 44);
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+
+.price {
+    color: red;
+    margin-top: 10px;
+}
+
+/* PRICING */
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price-text {
+    padding: 40px;
+    background-color: rgb(44, 44, 44);
+}
+
+.price-text .label {
+    background-color: #0d0d0d;
+}
+
+.pricing-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.price-list {
+    list-style: none;
+    width: 500px;
+}
+
+span {
+    color: red;
+    font-size: 15px;
+}
+
+.price-list li {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+}
+
+.price-img {
+    width: 500px;
+    border-radius: 2px;
+}
+
+/* BARBERS */
+.barbers {
+    text-align: center;
+}
+
+.barbers h3 {
+    display: inline-block;
+}
+
+.barber-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+.barber-box {
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+}
+
+.box-text {
+    padding: 10px;
+}
+
+.box-text p {
+    color: red;
+}
+
+.barber-box img {
+    width: 100%;
+    height: 200px;
+    border-radius: px;
+}
+
+.span-color span {
+    color: rgb(68, 68, 90);
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.testimonial-box {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial-box img {
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.testimonial-box p {
+    width: 400px;
+
+}
+
+.role {
+    color: red;
+    margin: 8px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #444;
+    padding: 50px 10%;
+    margin-top: 20px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer-col h3 {
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.news-btn {
+    display: flex;
+    margin-bottom: 20px;
+    background: white;
+    justify-content: space-between;
+}
+
+.news-btn input {
+    border: none;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+@media screen and (max-width:992px) {
+    h2 {
+        font-size: 8px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .padd {
+        padding: 2px;
+    }
+
+    .label {
+        font-size: 7px;
+        padding: 2px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .profile h1 {
+        font-size: 24px;
+    }
+
+    .header {
+        padding: 7px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .nav {
+        font-size: 10px;
+    }
+
+    .nav {
+        padding: 6px 12px;
+    }
+
+
+    .price-text {
+        padding: 10px;
+    }
+
+    .price-list {
+        width: 250px;
+    }
+
+    .price-list li {
+        font-size: 10px;
+        padding: 6px 0;
+    }
+
+    .price-img {
+        width: 250px;
+    }
+
+    .price {
+        font-size: 7px;
+
+    }
+
+    .barber-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+
+    .news-btn input {
+        width: 100px;
+    }
+
+    .btn {
+        padding: 1px 8px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 8px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .padd {
+        padding: 2px;
+    }
+
+    .label {
+        font-size: 7px;
+        padding: 2px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .profile h1 {
+        font-size: 24px;
+    }
+
+    .header {
+        padding: 7px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .nav {
+        font-size: 10px;
+        padding: 6px 0px;
+    }
+    .nav a{
+        margin-left: 15px;
+    }
+
+    .about {
+        padding: 10px 10px;
+    }
+
+    .about-img img {
+        width: 200px;
+    }
+
+    .about-sec2 {
+        display: none;
+    }
+
+    .about-sec3 {
+        padding: 0px 10%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .price-text {
+        padding: 10px;
+    }
+
+    .price-list {
+        width: 200px;
+    }
+
+    .price-list li {
+        font-size: 10px;
+        padding: 6px 0;
+    }
+
+    .price-img {
+        width: 200px;
+    }
+
+    .price {
+        font-size: 7px;
+
+    }
+
+    .barber-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+
+    .news-btn input {
+        width: 80px;
+    }
+
+    .btn {
+        padding: 0px 3px;
+        font-size: 10px;
+        margin: 1px;
+    }
+    .footer{
+        padding: 40px 5%;
+    }
+}
+@media screen and (max-width:480px) {
+    h2 {
+        font-size: 8px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 7px;
+    }
+
+    p {
+        font-size: 6px;
+    }
+
+    a {
+        font-size: 6px;
+    }
+
+    .padd {
+        padding: 2px;
+    }
+
+    .label {
+        font-size: 4px;
+        padding: 2px;
+    }
+
+    span {
+        font-size: 5px;
+    }
+
+    .profile h1 {
+        font-size: 18px;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .nav {
+       
+        padding: 6px 0px;
+    }
+    .nav a{
+        margin-left: 2px;
+         font-size: 7px;
+    }
+
+    .about {
+        padding: 10px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 200px;
+    }
+
+    .about-sec2 {
+        display: none;
+    }
+
+    .about-sec3 {
+        padding: 0px 10%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .services-grid{
+       grid-template-columns: 1fr;
+    }
+
+    .price-text {
+        padding: 10px;
+    }
+
+    .price-list {
+        width: 100px;
+    }
+
+    .price-list li {
+        font-size: 5px;
+        padding: 1px;
+    
+    }
+
+    .price-img {
+        width: 100px;
+    }
+
+    .price {
+        font-size: 7px;
+
+    }
+
+    .barber-grid {
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    }
+    .barber-box img{
+        height: 50px;
+    }
+    .box-text{
+        padding: 4px;
+    }
+    .testimonial{
+        padding: 3px 50px;
+    }
+    .testimonial-box p{
+        width:200px ;
+    }
+    .footer-col{
+        width: 110px;
+    }
+    .footer-col h3{
+        margin-bottom: 10px;
+    }
+    .footer-col a{
+        margin-bottom: 3px;
+    }
+    
+    .news-btn{
+        margin-bottom: 10px;
+    }
+    .news-btn input {
+        width: 50px;
+        font-size: 8px;
+    }
+
+    .btn {
+        padding: 0px 3px;
+        font-size: 10px;
+        margin: 1px;
+    }
+    .footer{
+        padding: 20px 4px;
+    }
+    .social-icon a img{
+        width: 10px;
+        margin: 0px 5px;
+    }
+}
