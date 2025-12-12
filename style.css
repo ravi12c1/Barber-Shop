@@ -73,7 +73,7 @@ p {
 /* profile */
 .profile {
     height: 80vh;
-    background: url("/Web-Design/Projects/Blazing-Coders/Picture/Profile.jpg") center/cover no-repeat;
+    background: url("Picture/Profile.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     padding-left: 5%;
